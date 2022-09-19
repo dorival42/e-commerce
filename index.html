@@ -24,14 +24,14 @@
 <body>
     
 
-  <div class="overlay active" data-overlay></div>
+  <div class="overlay " data-overlay></div>
 
 
 <!--
   Modal
 -->
 
-<div class="modal"  data-modal>
+<div class="modal closed"  data-modal>
   <div class="modal-close-overlay" data-modal-overlay></div>
   <div class="modal-content">
     <button class="modal-close-btn" data-modal-close>
@@ -58,6 +58,31 @@
         <button type="submit" class="btn-newsletter">Abonnez-vous</button>
       </form>
     </div>
+  </div>
+</div>
+
+
+
+
+<!--**********************
+  Notification Toast
+*********************-->
+
+<div class="notification-toast" data-toast>
+  <button class="toast-close-bin" data-toast-close>
+    <i class="fa-sharp fa-solid fa-xmark"></i>
+  </button>
+  <div class="toast-banner">
+    <img src="./assets/image/bannerImages/images1.jpg" alt="Boucle" width="80" height="70">
+  </div>
+
+  <div class="toast-detail">
+
+    <p class="toast-message"> Quelqu'un de nouveau vient d'acheter </p>
+    <p class="toast-title">Boucle d'oreilles. </p>
+    <p class="toast-meta">
+      <time datetime="PT2M">2 Minutes</time> ago
+    </p>
   </div>
 </div>
 
