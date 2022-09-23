@@ -60,7 +60,7 @@ const accordion = document.querySelectorAll('[data-accordion]');
 for ( let i = 0; i < accordionBtn.length; i++) {
 
     accordionBtn[i].addEventListener('click', function() {
-        const clickedBtn = this.nextElementsibling.classList.contains('active');
+        const clickedBtn = this.nextElementSibling.classList.contains('active');
 
         for ( let i = 0; i < accordion.length; i++ ) {
 
@@ -74,7 +74,7 @@ for ( let i = 0; i < accordionBtn.length; i++) {
 
         }
 
-        this.nextElementsibling.classList.toggle('active');
+        this.nextElementSibling.classList.toggle('active');
         this.classList.toggle('active');
     });
 }

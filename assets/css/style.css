@@ -22,7 +22,7 @@
     --bittersweet:hsl(0, 100%, 70%);
     --ocean-green:hsl(152, 51%, 52%);
     --davys-gray:hsl(0, 0%, 93%);
-    --cultured:hsl(0, 0%, 13%);
+    --cultured:hsl(0, 0%, 93%);
     --thumb:hsl(0, 0%, 80%);
     --thumbhover:hsl(0, 0%, 70%);
     --white:hsl(0, 100%, 100%);
@@ -353,7 +353,7 @@ STYLE
   color: var(--sonic-silver);
 }
 
-.toast-close-btn i {--ionicon-stroke-width: 50px; }
+.toast-close-btn ion-icon {--ionicon-stroke-width: 50px; }
 
 .toast-banner {
   width: 70px;
@@ -513,7 +513,7 @@ HEADER
   font-size: 22px;
 }
 
-.menu-close-btn i {
+.menu-close-btn ion-icon {
 --ionicon-stroke-width: 50px;
 }
 
@@ -610,9 +610,10 @@ i
 }
 
 .menu-social-container .social-link {
-  background-color: var(--cultured);
+  background: var(--cultured);
   color: var(--eerie-black);
   font-size: 20px;
+  padding: 10px;
   border-radius: var(--border-radius-md);
 }
 
