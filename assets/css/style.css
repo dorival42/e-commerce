@@ -86,7 +86,7 @@ button {
     cursor: pointer;
 }
 
-img, i, button, a {display: block;}
+img, ion-icon, button, a {display: block;}
 
 span{display: inline-block;}
 
@@ -255,7 +255,7 @@ STYLE
   opacity: 0.9;
 }
 
-.modal-close-btn i {--ionicon-stroke-widht: 70px;}
+.modal-close-btn ion-icon {--ionicon-stroke-widht: 70px;}
 
 .newsletter {
   padding: 50px 30px;
@@ -539,18 +539,16 @@ HEADER
 
 .accordion-menu > div {font-size: 14px;}
 
-.accordion-menu i {
+.accordion-menu ion-icon {
   color: var(--onyx);
   --ionicon-stroke-width: 90px;
 }
 
 .accordion-menu.active .add-icon,
-.accordion-menu .fa-minus{
-  display: none;
-}
+.accordion-menu .remove-icon{display: none;}
 
 .accordion-menu .add-icon,
-.accordion-menu.active .fa-minus{display: block;}
+.accordion-menu.active .remove-icon{display: block;}
 
 .menu-category .submenu-category-list {margin-bottom: 10px;}
 
@@ -560,7 +558,7 @@ HEADER
   color: var(--sonic-silver);
   font-weight: var(--weight-300);
 }
-
+i
 .submenu-title:hover{color: var(--davys-gray);}
 
 .submenu-category-list{
@@ -587,7 +585,8 @@ HEADER
   color: var(--eerie-black);
   padding: 12px 0;
 }
-.accordion-menu.active .fa-caret-left{ transform: rotate(-0.25turn);}
+.accordion-menu.active .caret-back { transform: rotate(-0.25turn);} 
+
 
 .menu-bottom .submenu-category-list{
   border: 1px solid var(--cultured);
@@ -731,7 +730,7 @@ Category
   background: var(--cultured);
   border: 1px solid hsl(0, 0%, 80%);
   padding: 10px;
-  border-radius: var(--border-radius-md);
+  border-radius: var(--border-radius-sm);
 }
 
 .category-content-box { width: 100%;}
